@@ -1,16 +1,18 @@
-<nav ngbNav #nav="ngbNav" class="nav-tabs">
-  <ng-container ngbNavItem>
-    <a routerLink="home" ngbNavLink>Inicio</a>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink="about" ngbNavLink>Sobre mí y este proyecto</a>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink="projects" ngbNavLink>Proyectos</a>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink="contact" ngbNavLink>Contacto</a>
-  </ng-container>
-</nav>
+<header>
+  <nav ngbNav #nav="ngbNav" class="nav-tabs">
+    <ng-container ngbNavItem>
+      <a routerLink="home" ngbNavLink>Inicio</a>
+    </ng-container>
+    <ng-container ngbNavItem>
+      <a routerLink="about" ngbNavLink>Sobre mí y este proyecto</a>
+    </ng-container>
+    <ng-container ngbNavItem>
+      <a routerLink="projects" ngbNavLink>Proyectos</a>
+    </ng-container>
+    <ng-container ngbNavItem>
+      <a routerLink="contact" ngbNavLink>Contacto</a>
+    </ng-container>
+  </nav>
 
-<div [ngbNavOutlet]="nav"></div>
+  <div [ngbNavOutlet]="nav"></div>
+</header>
